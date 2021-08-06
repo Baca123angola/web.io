@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="stilo.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Formulario de Inscriçao</h1>
+            <p>Preencha todos os blocos com a sua informaçao</p>
+        </header>
+
+        <form class="form">
+
+            <input type="text" placeholder="Nome" name="Seu Nome">
+            <input type="text" placeholder="SobreNome" name="Sobre Nome"> <br>
+            <input type="number" placeholder="telefone" name="Telefone">
+            <input type="date" placeholder="Data de Nascimento" name="DataNacimrnto">
+            <input type="text" placeholder="Endereço" name="Endereço">
+            <div>
+                <input name="Pises" list="Paises" placeholder="Paises">
+                <datalist id="Paises">
+                    <option value="Angola">
+                    <option value="Brasil">
+                    <option value="Portugal">
+                    <option value="Moçambique">
+  
+                    </option>
+                </datalist>
+            </div>
+        </form>
+    </body>
+
+</html>
